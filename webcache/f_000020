@@ -1,0 +1,411 @@
+<br />
+<b>Warning</b>:  date() expects at least 1 parameter, 0 given in <b>D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www\index.php</b> on line <b>1</b><br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pillsreports Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-Pillsreports-Home.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row pr">
+        <div class="col-lg-2 col-md-3 col-sm-4 pad0 left-sidebar">
+            <div class="navbar navbar-inverse navbar-fixed-left">
+                <div class="navbar-header">
+                    <div class="search-block visible-xs">
+                        <form action="#" method="post" class="search ">
+                            <input type="submit"  value="" class="submit"/>
+                        </form>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+
+                    </button>
+
+                    <h1>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="PILLREPORTS Ecstasy test results database by Enlighten" title="PILLREPORTS Ecstasy test results database by Enlighten"/>
+                        </a>
+                    </h1>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="home text-uppercase">HOME</a></li>
+                        <li><a href="#" class="login text-uppercase">LOGIN</a></li>
+                        <li><a href="#" class="register text-uppercase">REGISTER</a></li>
+                        <li><a href="#" class="bookstore text-uppercase">BOOKSTORE</a></li>
+                        <li><a href="#" class="guidelines text-uppercase">GUIDELINES</a></li>
+
+                        <li class="accordion-main">
+                            <div class="accordion-tab">
+                                <a href="#" class="region">REGION<span class="plus-btn"></span></a>
+                            </div>
+                            <div class="accordion-inner-block dn">
+                                <ul>
+                                    <li><a class="text-uppercase" href="#">ASIA</a></li>
+                                    <li><a class="text-uppercase" href="#">AFRICA</a></li>
+                                    <li><a class="text-uppercase" href="#">SOUTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">NORTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">EUROPE</a></li>
+                                    <li><a class="text-uppercase" href="#">MIDDLE EAST</a></li>
+                                    <li><a class="text-uppercase" href="#">AUSTRALIA & NZ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion-main">
+                            <div class="accordion-tab">
+                                <a href="#" class="account-option">ACCOUNT OPTION<span class="plus-btn"></span></a>
+                            </div>
+                            <div class="accordion-inner-block dn">
+                                <ul>
+                                    <li><a class="text-uppercase" href="#">ASIA</a></li>
+                                    <li><a class="text-uppercase" href="#">AFRICA</a></li>
+                                    <li><a class="text-uppercase" href="#">SOUTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">NORTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">EUROPE</a></li>
+                                    <li><a class="text-uppercase" href="#">MIDDLE EAST</a></li>
+                                    <li><a class="text-uppercase" href="#">AUSTRALIA & NZ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#" class="text-uppercase search-comment">SEARCH COMMENT</a></li>
+                        <li><a href="#" class="text-uppercase search-result">SEARCH RESULT</a></li>
+                        <li><a href="#" class="text-uppercase adultered-result">ADULTERED RESULT</a></li>
+
+                        <li class="accordion-main">
+                            <div class="accordion-tab">
+                                <a href="#" class="site-that-we-like">SITE THAT WE LIKE<span
+                                        class="plus-btn"></span></a>
+                            </div>
+                            <div class="accordion-inner-block dn">
+                                <ul>
+                                    <li><a class="text-uppercase" href="#">ASIA</a></li>
+                                    <li><a class="text-uppercase" href="#">AFRICA</a></li>
+                                    <li><a class="text-uppercase" href="#">SOUTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">NORTH AMERICA</a></li>
+                                    <li><a class="text-uppercase" href="#">EUROPE</a></li>
+                                    <li><a class="text-uppercase" href="#">MIDDLE EAST</a></li>
+                                    <li><a class="text-uppercase" href="#">AUSTRALIA & NZ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#" class="about-us">ABOUT US</a></li>
+                        <li><a href="#" class="contact-us">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3 col-sm-8 col-sm-offset-4">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 pad-left">
+                    <div class="row row-center">
+                        <div class="select-your-region">
+                            <h3>Select Your Region</h3>
+                            <img src="images/maps.png" alt="map" class="map">
+                        </div>
+                        <div class="select-appearance">
+                            <select class="selectpicker  select-map" data-size="5" title="Choose one of the following...">
+                                <option selected disabled>Select your region</option>
+                                <option>South East Asia</option>
+                                <option>South East Africa</option>
+                                <option>South East America</option>
+                            </select>
+                        </div>
+                        <div class="latest-news">
+                            <h3>LATEST NEWS</h3>
+                            <div class="news">
+                                <a href="#" class="blue">NEW BATCH</a>
+                                <h4>PMA Batch of Chupa Chups United Kingdom</h4>
+                                <p>Reports of a dangerous new batch of pills currently flooding the UK market are being circulated. The pills are reported to be very cleanly pressed in the shape of the Chupa Chups lollies logo, and are deep red in colour. According to The Daily Star, the pills have been shown to contain PMA.
+                                    For further information about the research project visit http://crahw.anu.edu.au/research/projects /methamphetamine-research-act or our facebook page at https://www.facebook.com/researchincanberra2016/</p>
+                                <ul class="posted">
+                                    <li>Posted by <b>bearlove2</b></li>
+                                    <li>May 9, 2016</li>
+                                </ul>
+                            </div>
+                            <div class="news">
+                                <a href="#" class="blue">PAID STUDY</a>
+                                <h4>Canberra - Do you use methamphetamine?</h4>
+                                <p>Research participants required for a confidential face-to-face survey. Participants will be reimbursed $40 to cover travel and out-of-pocket expenses. If you are interested in participating or would like more information about the project please phone Alex on 0439 787 487 or email healthsurvey@anu.edu.au.</p>
+                                <ul class="posted">
+                                    <li>Posted by <b>johnboy</b></li>
+                                    <li>May 8, 2016</li>
+                                </ul>
+                            </div>
+                            <div class="news">
+                                <a href="#" class="blue">PAID Research</a>
+                                <h4>Research - Australia Wide</h4>
+                                <p>The ecstasy and related drug reporting system (EDRS) is a strategic early warning system that monitors trends and issues emerging from the Australian ecstasy and related drugs market. This project uses various sources of data but primarily interviews with people who regularly use ecstasy and related drugs. This information helps to provide an evidence base for policy decisions; helps to inform harm reduction messages; and to provide directions for further investigation when issues of concern are detected.</p>
+                                <ul class="posted">
+                                    <li>Posted by <b>johnboy</b></li>
+                                    <li>May 4, 2016</li>
+                                </ul>
+                            </div>
+                            <div class="news">
+                                <a href="#" class="blue">WARNING</a>
+                                <h4>PMA/PMMA is being sold as MDMA in Victoria Australia</h4>
+                                <p>In recent months DanceWize has received a number of reports from our peers in the dance community who use Mecke and Mandelin reagent tests sourced online (or from a limited number of retailers in Melbourne) that substances purchased as MDMA (colloquially referred to as Ecstasy) were in fact other Novel Psychoactive Substances, including methylone, 2CB, 2CI, and 2CE. Further, of more concern, such reagent tests have also indicated with a high degree of certainty that PMA/PMMA is in circulation in Victoria masquerading as MDMA.</p>
+                                <ul class="posted">
+                                    <li>Posted by <b>johnboy</b></li>
+                                    <li>April 28, 2016</li>
+                                </ul>
+                            </div>
+                            <div class="news">
+                                <a href="#" class="blue">NEW BATCH</a>
+                                <h4>PMA Batch of Chupa Chups United Kingdom</h4>
+                                <p>Reports of a dangerous new batch of pills currently flooding the UK market are being circulated. The pills are reported to be very cleanly pressed in the shape of the Chupa Chups lollies logo, and are deep red in colour. According to The Daily Star, the pills have been shown to contain PMA.</p>
+                                <ul class="posted">
+                                    <li>Posted by <b>bearlove2</b></li>
+                                    <li>April 15 2016</li>
+                                </ul>
+                            </div>
+                            <div class="visible-sm visible-xs">
+                                <button type="button" class="btn btn-primary">MORE NEWS</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-4 right-block">
+                    <div class="row marg-rig-0">
+                        <div class="search-block hidden-xs">
+                            <form action="#" method="post" class="search ">
+                                <input type="text"  placeholder="Search Here. . ." class="input"/>
+                                <input type="submit"  value="" class="submit"/>
+                            </form>
+                        </div>
+
+                        <div class="box-right-top310x175 text-center ">
+                            <img src="images/Right-Top-Ads310x175.png" alt="Right-Top-Ads310x175"/>
+                        </div>
+
+                        <div class="text-about">
+                            <h3>ABOUT PILLREPORTS</h3>
+
+                            <p>
+                                Pillreports is a global database of
+                                Ecstasy" pills based on both subjective user reports and scientific analysis. "Ecstasy"
+                                is traditionally
+                                the name for MDMA based pills, however here we also include closely related
+                                substances such as MDA, MDEA, MBDB. Pills sold as "Ecstasy" often include other,
+                                potentially more
+                                dangerous, substances such as
+                                methamphetamine, ketamine and PMA.
+                            </p>
+
+                            <button type="button" class="btn btn-primary">MORE DETAIL</button>
+                        </div>
+                        <div class="col-xs-12 latest">
+                            <h3>LATEST WARNINGS</h3>
+                            <ul class="list-group clearfix">
+                                <li class="list-group-item col-md-12 col-xs-6"><a href="#">Gold Louis Vuitton</a>
+                                    <ul class="data">
+                                        <li>Singapore</li>
+                                        <li>-</li>
+                                        <li>23/05/16</li>
+                                    </ul>
+
+                                </li>
+                                <li class="list-group-item col-md-12 col-xs-6"><a href="#">Tan Mercedes</a>
+                                    <ul class="data">
+                                        <li>Singapore</li>
+                                        <li>-</li>
+                                        <li>15/02/15</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item col-md-12 col-xs-6"><a href="#">Pink Battery</a>
+                                    <ul class="data">
+                                        <li>Singapore</li>
+                                        <li>-</li>
+                                        <li>11/04/15</li>
+                                    </ul>
+
+                                </li>
+                                <li class="list-group-item col-md-12 col-xs-6"><a href="#">Gold Louis Vuitton</a>
+                                    <ul class="data">
+                                        <li>Singapore</li>
+                                        <li>-</li>
+                                        <li>23/05/16</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item col-md-12 col-xs-6"><a href="#">Tan Mercedes</a>
+                                    <ul class="data">
+                                        <li>Singapore</li>
+                                        <li>-</li>
+                                        <li>15/02/15</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-black text-uppercase">MORE DETAIL</button>
+                            <div class="box-right-top310x350 text-center">
+                                <img src="images/Right-Top-Ads310x350.png" alt="Right-Top-Ads310x350"/>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-Banner-Ads-1155x120 text-center">
+                    <img src="images/Banner-Ads-1155x120.png" alt="Banner-Ads-1155x120"/>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <footer>
+
+                    <div class="footer-top col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-8 col-xs-12">
+                                <div class="col-lg-6 col-sm-12 col-xs-12">
+                                    <div class="row ">
+                                        <div class=" col-sm-6 col-xs-12">
+                                            <ul class=" more-menus">
+                                                <li><a href="#" class="text-uppercase">MORE MENUS</a></li>
+                                                <li><a href="#" class="text-uppercase">HOME</a></li>
+                                                <li><a href="#" class="text-uppercase">BOOKSTRORE</a></li>
+                                                <li><a href="#" class="text-uppercase">GUIDELINES</a></li>
+                                                <li><a href="#" class="text-uppercase">CONTACT US</a></li>
+                                            </ul>
+                                            <ul class="register">
+                                                <li><a href="#" class="text-uppercase">REGISTER</a></li>
+                                                <li><a href="#" class="text-uppercase">CHANGE EMAIL</a></li>
+                                                <li><a href="#" class="text-uppercase">RESET PASSWORD</a></li>
+                                                <li><a href="#" class="text-uppercase">SEND ACTIVATION LINK</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6 col-xs-12">
+                                            <ul class="more-search">
+                                                <li><a href="#" class="text-uppercase">MORE SEARCH</a></li>
+                                                <li><a href="#" class="text-uppercase">SEARCH COMMENTS</a></li>
+                                                <li><a href="#" class="text-uppercase">SEARCH REPORTS</a></li>
+                                                <li><a href="#" class="text-uppercase">ADULTERATED RESULTS</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 col-xs-12">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-xs-12">
+                                            <ul class="select-region">
+                                                <li><a href="#" class="text-uppercase">SELECT REGION</a></li>
+                                                <li><a href="#" class="text-uppercase">AFRICA</a></li>
+                                                <li><a href="#" class="text-uppercase">ASIA</a></li>
+                                                <li><a href="#" class="text-uppercase">AUSTRALIA & NZ</a></li>
+                                                <li><a href="#" class="text-uppercase">EUROPE</a></li>
+                                                <li><a href="#" class="text-uppercase">MIDDLE EAST</a></li>
+                                                <li><a href="#" class="text-uppercase">NORTH AMERICA</a></li>
+                                                <li><a href="#" class="text-uppercase">CHANGE EMAIL</a></li>
+                                                <li><a href="#" class="text-uppercase">SOUTH AMERICA</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6 col-xs-12">
+                                            <ul class="site-that">
+                                                <li><a href="#" class="text-uppercase">SITE THAT WE LIKE</a></li>
+                                                <li><a href="#" class="text-uppercase">ENLIGHTEN</a></li>
+                                                <li><a href="#" class="text-uppercase">EROWID</a></li>
+                                                <li><a href="#" class="text-uppercase">ECSTASYDATA.ORG</a></li>
+                                                <li><a href="#" class="text-uppercase">BLUELIGHT</a></li>
+                                                <li><a href="#" class="text-uppercase">EROWID</a></li>
+                                                <li><a href="#" class="text-uppercase">COUNSELLING ONLINE</a></li>
+                                                <li><a href="#" class="text-uppercase">RESET PASSWORD</a></li>
+                                                <li><a href="#" class="text-uppercase">SEND ACTIVATION LINK</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="text-about visible-xs">
+                                    <h3>ABOUT PILLREPORTS</h3>
+
+                                    <p>
+                                        Pillreports is a global database of
+                                        Ecstasy" pills based on both subjective user reports and scientific analysis. "Ecstasy"
+                                        is traditionally
+                                        the name for MDMA based pills, however here we also include closely related
+                                        substances such as MDA, MDEA, MBDB. Pills sold as "Ecstasy" often include other,
+                                        potentially more
+                                        dangerous, substances such as
+                                        methamphetamine, ketamine and PMA.
+                                    </p>
+
+                                    <button type="button" class="btn btn-primary">MORE DETAIL</button>
+                                </div>-->
+
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-12 social">
+                                <div class="row">
+                                    <ul class="social-media">
+                                        <li><a href="#" class="right">SOCIAL MEDIA</a></li>
+                                        <li>
+                                            <button type="button" class="btn btn-default btn-facebook text-uppercase">FACEBOOK</button>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="btn btn-default btn-twitter text-uppercase">TWITTER</button>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="btn btn-default btn-instagram text-uppercase">INSTAGRAM</button>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-xs-12 text-center">
+                                <p>Copyrights &copy; 2016. pillreports.net</p>
+                            </div>
+                            <div class="col-lg-6 col-xs-12 text-center">
+                                <div class="bottom-menu">
+                                   <p>
+                                       <a href="#">Privacy Policy</a> <a href="#"> &bull; Terms & Conditions</a> <a
+                                           href="#"> &bull;
+                                       Contact Us</a>
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    //Accordion Menu
+    $(".accordion-main .accordion-tab").click(function (event) {
+        event.preventDefault();
+        var self = $(this);
+
+        self.find('.accordion-title').toggleClass('select');
+        self.parent().find('.accordion-inner-block').slideToggle();
+        self.toggleClass('active');
+        self.find('.plus-btn').toggleClass('active');
+    });
+</script>
+
+
+</body>
+</html>

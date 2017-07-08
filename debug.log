@@ -1,0 +1,1209 @@
+- 04:18:49.032 INFO: --------------------------------------------------------
+- 04:18:49.032 INFO: Started application
+- 04:18:49.032 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:18:49.032 INFO: Log level = DEBUG4
+- 04:18:49.032 INFO: Starting Mongoose 3.9c web server
+- 04:18:49.032 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:18:49.032 INFO: Index files: index.html,index.php
+- 04:18:49.032 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:18:49.032 INFO: CGI pattern: **.php$
+- 04:18:49.032 INFO: Hide files patterns: 
+- 04:18:49.032 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:18:49.063 INFO: Web server url: http://127.0.0.1:53617/
+- 04:18:49.063 INFO: remote_debugging_port = 51362
+- 04:18:49.063 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=51362
+- 04:18:50.407 DEBUG: App::OnContextInitialized()
+- 04:18:50.407 DEBUG: Window max width/height = 1840/992
+- 04:18:50.407 DEBUG: GetBrowserWindow(): not found, hwnd = 134920
+- 04:18:50.407 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:18:50.407 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:18:50.407 DEBUG: StoreBrowserWindow(): hwnd = 134920
+- 04:18:50.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="6988.0.1976405760\223057905" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:18:50.438 DEBUG: ClientHandler::OnAfterCreated()
+- 04:18:50.438 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:18:50.438 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:18:50.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="6988.1.235680757\960552113" /prefetch:673131151
+- 04:18:50.031 DEBUG: OnBrowserCreated()
+- 04:18:51.141 INFO: GET 200 /style.css
+- 04:18:51.157 INFO: GET 200 /
+- 04:18:51.703 DEBUG: OnContextCreated()
+- 04:18:51.204 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/
+- 04:18:58.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/
+- 04:18:58.515 DEBUG: OnContextCreated()
+- 04:18:58.969 INFO: GET 200 /html5-video.php
+- 04:18:58.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/html5-video.php
+- 04:19:00.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/html5-video.php
+- 04:19:00.937 DEBUG: OnContextCreated()
+- 04:19:00.391 INFO: GET 200 /index.php
+- 04:19:00.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/index.php
+- 04:19:02.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/index.php
+- 04:19:02.046 DEBUG: OnContextCreated()
+- 04:19:02.500 INFO: GET 200 /index.php
+- 04:19:02.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/index.php
+- 04:19:05.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/index.php
+- 04:19:05.203 DEBUG: OnContextCreated()
+- 04:19:05.657 INFO: GET 200 /execute-command.php
+- 04:19:05.704 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/execute-command.php
+- 04:19:06.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/execute-command.php
+- 04:19:06.796 DEBUG: OnContextCreated()
+- 04:19:06.250 INFO: GET 200 /index.php
+- 04:19:06.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/index.php
+- 04:19:09.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/index.php
+- 04:19:09.281 DEBUG: OnContextCreated()
+- 04:19:09.750 INFO: GET 200 /download.php
+- 04:19:09.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/download.php
+- 04:19:10.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/download.php
+- 04:19:10.468 DEBUG: OnContextCreated()
+- 04:19:10.922 INFO: GET 200 /index.php
+- 04:19:10.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/index.php
+- 04:19:20.000 DEBUG: Command line string for the utility process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=utility --channel="6988.2.1389023412\1533278144" --lang=en-US --no-sandbox --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:-645351001
+- 04:21:28.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/index.php
+- 04:21:28.938 INFO: GET 404 /error-500.php
+- 04:21:28.484 DEBUG: OnContextCreated()
+- 04:21:28.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/error-500.php
+- 04:21:31.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/error-500.php
+- 04:21:31.203 DEBUG: OnContextCreated()
+- 04:21:31.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/index.php
+- 04:21:34.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53617/index.php
+- 04:21:34.594 INFO: GET 404 /popup.php
+- 04:21:34.140 DEBUG: OnContextCreated()
+- 04:21:34.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53617/popup.php
+- 04:21:35.172 DEBUG: WM_DESTROY
+- 04:21:35.172 DEBUG: RemoveBrowserWindow(): hwnd = 134920
+- 04:21:35.172 INFO: Stopping Mongoose web server
+- 04:21:35.172 DEBUG: Mongoose webserver stopped immediately
+- 04:21:35.188 DEBUG: OnBeforeClose() hwnd=134954
+- 04:21:35.188 DEBUG: RemoveBrowserWindow(): hwnd = 134954
+- 04:21:35.188 DEBUG: GetBrowserWindow(): not found, hwnd = 134954
+- 04:21:35.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:21:35.188 DEBUG: Calling CefQuitMessageLoop()
+- 04:21:35.734 DEBUG: OnBrowserDestroyed()
+- 04:21:35.204 INFO: Ended application
+- 04:21:35.204 INFO: --------------------------------------------------------
+- 04:21:39.031 INFO: --------------------------------------------------------
+- 04:21:39.031 INFO: Started application
+- 04:21:39.031 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:21:39.031 INFO: Log level = DEBUG4
+- 04:21:39.031 INFO: Starting Mongoose 3.9c web server
+- 04:21:39.031 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:21:39.031 INFO: Index files: index.html,index.php
+- 04:21:39.031 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:21:39.031 INFO: CGI pattern: **.php$
+- 04:21:39.031 INFO: Hide files patterns: 
+- 04:21:39.031 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:21:39.046 INFO: Web server url: http://127.0.0.1:53694/
+- 04:21:39.046 INFO: remote_debugging_port = 56231
+- 04:21:39.046 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=56231
+- 04:21:39.078 DEBUG: App::OnContextInitialized()
+- 04:21:39.078 DEBUG: Window max width/height = 1840/992
+- 04:21:39.078 DEBUG: GetBrowserWindow(): not found, hwnd = 200494
+- 04:21:39.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:21:39.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:21:39.078 DEBUG: StoreBrowserWindow(): hwnd = 200494
+- 04:21:39.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="7864.0.1942976051\1498204037" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:21:39.109 DEBUG: ClientHandler::OnAfterCreated()
+- 04:21:39.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:21:39.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:21:39.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="7864.1.1910888133\670843379" /prefetch:673131151
+- 04:21:39.015 DEBUG: OnBrowserCreated()
+- 04:21:40.234 INFO: GET 200 /
+- 04:21:40.125 DEBUG: OnContextCreated()
+- 04:21:40.265 INFO: GET 200 /images/logo.png
+- 04:21:40.265 INFO: GET 200 /css/bootstrap.css
+- 04:21:40.265 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:21:40.281 INFO: GET 200 /images/maps.png
+- 04:21:40.281 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:21:40.296 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:21:40.296 INFO: GET 200 /js/bootstrap.js
+- 04:21:40.312 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:21:40.328 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:21:40.406 INFO: GET 200 /images/sprite-Recovered.png
+- 04:21:40.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/
+- 04:22:02.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/
+- 04:22:02.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:02.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:02.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:03.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:03.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:44.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:44.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:45.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:45.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:45.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:45.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:23:47.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53694/#
+- 04:23:47.406 INFO: POST 200 /
+- 04:23:47.296 DEBUG: OnContextCreated()
+- 04:23:47.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53694/#
+- 04:24:44.000 DEBUG: OnBeforeClose() hwnd=397062
+- 04:24:44.000 DEBUG: RemoveBrowserWindow(): hwnd = 397062
+- 04:24:44.015 DEBUG: GetBrowserWindow(): not found, hwnd = 397062
+- 04:24:44.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:24:51.047 INFO: --------------------------------------------------------
+- 04:24:51.047 INFO: Started application
+- 04:24:51.047 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:24:51.047 INFO: Log level = DEBUG4
+- 04:24:51.047 INFO: Starting Mongoose 3.9c web server
+- 04:24:51.047 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:24:51.047 INFO: Index files: index.html,index.php
+- 04:24:51.047 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:24:51.047 INFO: CGI pattern: **.php$
+- 04:24:51.047 INFO: Hide files patterns: 
+- 04:24:51.047 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:24:51.047 INFO: Web server url: http://127.0.0.1:53804/
+- 04:24:51.047 INFO: remote_debugging_port = 53609
+- 04:24:51.047 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=53609
+- 04:24:51.094 DEBUG: App::OnContextInitialized()
+- 04:24:51.094 DEBUG: Window max width/height = 1840/992
+- 04:24:51.094 DEBUG: GetBrowserWindow(): not found, hwnd = 528134
+- 04:24:51.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:24:51.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:24:51.094 DEBUG: StoreBrowserWindow(): hwnd = 528134
+- 04:24:51.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="9896.0.416380146\602009408" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:24:51.109 DEBUG: ClientHandler::OnAfterCreated()
+- 04:24:51.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:24:51.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:24:51.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="9896.1.1755290072\2088842055" /prefetch:673131151
+- 04:24:51.031 DEBUG: OnBrowserCreated()
+- 04:24:52.219 INFO: GET 200 /
+- 04:24:52.109 DEBUG: OnContextCreated()
+- 04:24:52.266 INFO: GET 200 /images/logo.png
+- 04:24:52.266 INFO: GET 200 /js/bootstrap.js
+- 04:24:52.266 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:24:52.266 INFO: GET 200 /css/bootstrap.css
+- 04:24:52.281 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:24:52.281 INFO: GET 200 /images/maps.png
+- 04:24:52.359 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:24:52.359 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:24:52.359 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:24:52.469 INFO: GET 200 /images/sprite-Recovered.png
+- 04:24:53.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53804/
+- 04:24:56.406 DEBUG: WM_DESTROY
+- 04:24:56.406 DEBUG: RemoveBrowserWindow(): hwnd = 528134
+- 04:24:56.406 INFO: Stopping Mongoose web server
+- 04:24:56.406 DEBUG: Mongoose webserver stopped immediately
+- 04:24:56.422 DEBUG: OnBeforeClose() hwnd=331530
+- 04:24:56.422 DEBUG: RemoveBrowserWindow(): hwnd = 331530
+- 04:24:56.422 DEBUG: GetBrowserWindow(): not found, hwnd = 331530
+- 04:24:56.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:24:56.422 DEBUG: Calling CefQuitMessageLoop()
+- 04:24:56.437 INFO: Ended application
+- 04:24:56.437 INFO: --------------------------------------------------------
+- 04:24:58.031 INFO: --------------------------------------------------------
+- 04:24:58.031 INFO: Started application
+- 04:24:58.031 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:24:58.031 INFO: Log level = DEBUG4
+- 04:24:58.031 INFO: Starting Mongoose 3.9c web server
+- 04:24:58.031 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:24:58.031 INFO: Index files: index.html,index.php
+- 04:24:58.031 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:24:58.031 INFO: CGI pattern: **.php$
+- 04:24:58.031 INFO: Hide files patterns: 
+- 04:24:58.031 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:24:58.046 INFO: Web server url: http://127.0.0.1:53816/
+- 04:24:58.046 INFO: remote_debugging_port = 60000
+- 04:24:58.046 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=60000
+- 04:24:58.093 DEBUG: App::OnContextInitialized()
+- 04:24:58.093 DEBUG: Window max width/height = 1840/992
+- 04:24:58.093 DEBUG: GetBrowserWindow(): not found, hwnd = 397066
+- 04:24:58.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:24:58.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:24:58.093 DEBUG: StoreBrowserWindow(): hwnd = 397066
+- 04:24:58.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="1988.0.1246531332\2140437670" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:24:58.109 DEBUG: ClientHandler::OnAfterCreated()
+- 04:24:58.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:24:58.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:24:58.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="1988.1.1164717456\1359012773" /prefetch:673131151
+- 04:24:58.031 DEBUG: OnBrowserCreated()
+- 04:24:59.203 INFO: GET 200 /
+- 04:24:59.094 DEBUG: OnContextCreated()
+- 04:24:59.250 INFO: GET 200 /js/bootstrap.js
+- 04:24:59.250 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:24:59.250 INFO: GET 200 /images/logo.png
+- 04:24:59.250 INFO: GET 200 /css/bootstrap.css
+- 04:24:59.265 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:24:59.328 INFO: GET 200 /images/maps.png
+- 04:24:59.343 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:24:59.343 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:24:59.375 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:24:59.453 INFO: GET 200 /images/sprite-Recovered.png
+- 04:25:00.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53816/
+- 04:26:24.047 INFO: --------------------------------------------------------
+- 04:26:24.047 INFO: Started application
+- 04:26:24.047 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:26:24.047 INFO: Log level = DEBUG4
+- 04:26:24.047 INFO: Starting Mongoose 3.9c web server
+- 04:26:24.047 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:26:24.047 INFO: Index files: index.html,index.php
+- 04:26:24.047 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:26:24.047 INFO: CGI pattern: **.php$
+- 04:26:24.047 INFO: Hide files patterns: 
+- 04:26:24.047 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:26:24.047 INFO: Web server url: http://127.0.0.1:53846/
+- 04:26:24.047 INFO: remote_debugging_port = 55801
+- 04:26:24.047 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=55801
+- 04:26:24.078 DEBUG: App::OnContextInitialized()
+- 04:26:24.078 DEBUG: Window max width/height = 1840/992
+- 04:26:24.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2949966
+- 04:26:24.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:26:24.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:26:24.078 DEBUG: StoreBrowserWindow(): hwnd = 2949966
+- 04:26:24.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="7008.0.324613633\347042308" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:26:24.094 DEBUG: ClientHandler::OnAfterCreated()
+- 04:26:24.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:26:24.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:26:24.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="7008.1.242254597\2044742831" /prefetch:673131151
+- 04:26:24.031 DEBUG: OnBrowserCreated()
+[1207/042624:ERROR:cache_util_win.cc(20)] Unable to move the cache: 0
+[1207/042624:ERROR:cache_util.cc(132)] Unable to move cache folder D:\phpdesktop-chrome-47.5-rc-php-5.4.33\webcache\GPUCache to D:\phpdesktop-chrome-47.5-rc-php-5.4.33\webcache\old_GPUCache_000
+[1207/042624:ERROR:cache_creator.cc(127)] Unable to create cache
+[1207/042624:ERROR:shader_disk_cache.cc(588)] Shader Cache Creation failed: -2
+[1207/042624:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1207/042624:ERROR:cache_util.cc(132)] Unable to move cache folder D:\phpdesktop-chrome-47.5-rc-php-5.4.33\webcache to D:\phpdesktop-chrome-47.5-rc-php-5.4.33\old_webcache_000
+[1207/042624:ERROR:cache_creator.cc(127)] Unable to create cache
+- 04:26:25.234 INFO: GET 200 /css/bootstrap.css
+- 04:26:25.234 INFO: GET 200 /images/logo.png
+- 04:26:25.234 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:26:25.234 INFO: GET 200 /images/maps.png
+- 04:26:25.234 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:26:25.234 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:26:25.234 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:26:25.234 INFO: GET 200 /
+- 04:26:25.281 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:26:25.281 INFO: GET 200 /js/bootstrap.js
+- 04:26:25.172 DEBUG: OnContextCreated()
+- 04:26:25.359 INFO: GET 200 /images/sprite-Recovered.png
+- 04:26:25.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53846/
+- 04:26:40.250 DEBUG: ClientHandler::OnAfterCreated()
+- 04:26:40.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1379950
+- 04:26:40.250 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 04:26:40.250 DEBUG: StoreBrowserWindow(): hwnd = 1379950
+- 04:26:40.250 DEBUG: Centering popup window relative to its parent
+- 04:26:40.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:26:40.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="7008.2.2069860478\1179749405" /prefetch:673131151
+- 04:26:40.031 DEBUG: OnBrowserCreated()
+- 04:26:40.046 DEBUG: OnContextCreated()
+- 04:26:40.484 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 04:26:40.750 INFO: GET 404 /css/bootstrap.css.map
+- 04:26:45.781 DEBUG: OnBeforeClose() hwnd=1379950
+- 04:26:45.781 DEBUG: RemoveBrowserWindow(): hwnd = 1379950
+- 04:26:56.141 INFO: GET 200 /css/bootstrap.css
+- 04:26:56.156 INFO: GET 200 /images/logo.png
+- 04:26:56.156 INFO: GET 200 /images/maps.png
+- 04:26:56.156 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:26:56.156 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:26:56.156 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:26:56.156 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:26:56.172 INFO: GET 200 /
+- 04:26:56.203 INFO: GET 200 /js/bootstrap.js
+- 04:26:56.203 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:26:56.359 INFO: GET 200 /images/sprite-Recovered.png
+- 04:30:55.906 DEBUG: OnBeforeClose() hwnd=659338
+- 04:30:55.906 DEBUG: RemoveBrowserWindow(): hwnd = 659338
+- 04:30:55.922 DEBUG: GetBrowserWindow(): not found, hwnd = 659338
+- 04:30:55.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:30:55.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="7008.3.774655378\286834441" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,24,51,55 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:31:03.484 DEBUG: F5 pressed, reloading page
+- 04:31:03.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53816/
+- 04:31:03.406 DEBUG: OnContextCreated()
+- 04:31:03.546 INFO: GET 200 /
+- 04:31:04.578 INFO: GET 200 /js/bootstrap.js
+- 04:31:04.578 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:31:04.578 INFO: GET 200 /css/bootstrap.css
+- 04:31:04.578 INFO: GET 200 /images/maps.png
+- 04:31:04.578 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:31:04.578 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:31:04.578 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:31:04.578 INFO: GET 200 /images/logo.png
+- 04:31:04.640 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:31:04.734 INFO: GET 200 /images/sprite-Recovered.png
+- 04:31:04.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53816/
+- 04:31:04.234 DEBUG: F5 pressed, reloading page
+- 04:31:04.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53816/
+- 04:31:04.156 DEBUG: OnContextCreated()
+- 04:31:04.296 INFO: GET 200 /
+- 04:31:04.328 INFO: GET 200 /images/logo.png
+- 04:31:04.328 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:31:04.328 INFO: GET 200 /css/bootstrap.css
+- 04:31:04.328 INFO: GET 200 /images/maps.png
+- 04:31:04.328 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:31:04.328 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:31:04.328 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:31:04.328 INFO: GET 200 /js/bootstrap.js
+- 04:31:04.406 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:31:04.468 INFO: GET 200 /images/sprite-Recovered.png
+- 04:31:04.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53816/
+- 04:31:05.875 DEBUG: F5 pressed, reloading page
+- 04:31:05.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53816/
+- 04:31:05.813 DEBUG: OnContextCreated()
+- 04:31:05.953 INFO: GET 200 /
+- 04:31:05.984 INFO: GET 200 /images/logo.png
+- 04:31:05.984 INFO: GET 200 /js/bootstrap.js
+- 04:31:05.984 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:31:05.984 INFO: GET 200 /images/maps.png
+- 04:31:05.984 INFO: GET 200 /css/bootstrap.css
+- 04:31:05.984 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:31:05.984 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:31:05.000 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:31:05.062 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:31:05.140 INFO: GET 200 /images/sprite-Recovered.png
+- 04:31:05.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53816/
+- 04:39:44.281 DEBUG: WM_DESTROY
+- 04:39:44.281 DEBUG: RemoveBrowserWindow(): hwnd = 397066
+- 04:39:44.281 INFO: Stopping Mongoose web server
+- 04:39:44.281 DEBUG: Mongoose webserver stopped immediately
+- 04:39:44.281 DEBUG: OnBeforeClose() hwnd=790408
+- 04:39:44.281 DEBUG: RemoveBrowserWindow(): hwnd = 790408
+- 04:39:44.281 DEBUG: GetBrowserWindow(): not found, hwnd = 790408
+- 04:39:44.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:39:44.281 DEBUG: Calling CefQuitMessageLoop()
+- 04:39:44.328 INFO: Ended application
+- 04:39:44.328 INFO: --------------------------------------------------------
+- 04:43:47.047 INFO: --------------------------------------------------------
+- 04:43:47.047 INFO: Started application
+- 04:43:47.047 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:43:47.047 INFO: Log level = DEBUG4
+- 04:43:47.047 INFO: Starting Mongoose 3.9c web server
+- 04:43:47.047 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:43:47.047 INFO: Index files: index.html,index.php
+- 04:43:47.047 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:43:47.047 INFO: CGI pattern: **.php$
+- 04:43:47.047 INFO: Hide files patterns: 
+- 04:43:47.047 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:43:47.047 INFO: Web server url: http://127.0.0.1:54086/
+- 04:43:47.047 INFO: remote_debugging_port = 62605
+- 04:43:47.047 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=62605
+- 04:43:47.078 DEBUG: App::OnContextInitialized()
+- 04:43:47.078 DEBUG: Window max width/height = 1840/992
+- 04:43:47.094 DEBUG: GetBrowserWindow(): not found, hwnd = 659518
+- 04:43:47.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:43:47.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:43:47.094 DEBUG: StoreBrowserWindow(): hwnd = 659518
+- 04:43:47.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="8708.0.652148926\1768036032" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:43:47.110 DEBUG: ClientHandler::OnAfterCreated()
+- 04:43:47.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:43:47.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:43:47.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="8708.1.1427749468\1966436561" /prefetch:673131151
+- 04:43:47.031 DEBUG: OnBrowserCreated()
+- 04:43:48.282 INFO: GET 200 /
+- 04:43:48.282 INFO: GET 200 /images/logo.png
+- 04:43:48.282 INFO: GET 200 /css/bootstrap.css
+- 04:43:48.282 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:43:48.297 INFO: GET 200 /images/maps.png
+- 04:43:48.156 DEBUG: OnContextCreated()
+- 04:43:48.328 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:43:48.344 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:43:48.344 INFO: GET 200 /js/bootstrap.js
+- 04:43:48.344 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:43:48.344 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:43:49.532 INFO: GET 200 /images/sprite-Recovered.png
+- 04:43:49.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54086/
+- 04:43:52.438 DEBUG: WM_DESTROY
+- 04:43:52.438 DEBUG: RemoveBrowserWindow(): hwnd = 659518
+- 04:43:52.453 INFO: Stopping Mongoose web server
+- 04:43:52.453 DEBUG: Mongoose webserver stopped immediately
+- 04:43:52.453 DEBUG: OnBeforeClose() hwnd=1117982
+- 04:43:52.453 DEBUG: RemoveBrowserWindow(): hwnd = 1117982
+- 04:43:52.453 DEBUG: GetBrowserWindow(): not found, hwnd = 1117982
+- 04:43:52.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:43:52.453 DEBUG: Calling CefQuitMessageLoop()
+- 04:43:52.469 INFO: Ended application
+- 04:43:52.469 INFO: --------------------------------------------------------
+- 04:44:09.031 INFO: --------------------------------------------------------
+- 04:44:09.031 INFO: Started application
+- 04:44:09.031 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:44:09.031 INFO: Log level = DEBUG4
+- 04:44:09.031 INFO: Starting Mongoose 3.9c web server
+- 04:44:09.031 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:44:09.031 INFO: Index files: index.html,index.php
+- 04:44:09.031 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:44:09.031 INFO: CGI pattern: **.php$
+- 04:44:09.031 INFO: Hide files patterns: 
+- 04:44:09.031 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:44:09.031 INFO: Web server url: http://127.0.0.1:54100/
+- 04:44:09.031 INFO: remote_debugging_port = 54877
+- 04:44:09.031 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=54877
+- 04:44:09.078 DEBUG: App::OnContextInitialized()
+- 04:44:09.078 DEBUG: Window max width/height = 1840/992
+- 04:44:09.078 DEBUG: GetBrowserWindow(): not found, hwnd = 725046
+- 04:44:09.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:44:09.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:44:09.078 DEBUG: StoreBrowserWindow(): hwnd = 725046
+- 04:44:09.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="10960.0.1168690632\1834437699" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:44:09.094 DEBUG: ClientHandler::OnAfterCreated()
+- 04:44:09.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:44:09.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:44:09.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10960.1.1090429361\496441484" /prefetch:673131151
+- 04:44:09.031 DEBUG: OnBrowserCreated()
+- 04:44:10.250 INFO: GET 200 /css/bootstrap.css
+- 04:44:10.250 INFO: GET 200 /
+- 04:44:10.250 INFO: GET 200 /images/logo.png
+- 04:44:10.250 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:44:10.125 DEBUG: OnContextCreated()
+- 04:44:10.281 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:44:10.281 INFO: GET 200 /js/bootstrap.js
+- 04:44:10.281 INFO: GET 200 /images/maps.png
+- 04:44:10.375 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:44:10.375 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:44:10.391 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:44:10.500 INFO: GET 200 /images/sprite-Recovered.png
+- 04:44:10.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54100/
+- 04:45:30.516 DEBUG: WM_DESTROY
+- 04:45:30.516 DEBUG: RemoveBrowserWindow(): hwnd = 725046
+- 04:45:30.516 INFO: Stopping Mongoose web server
+- 04:45:30.516 DEBUG: Mongoose webserver stopped immediately
+- 04:45:30.516 DEBUG: OnBeforeClose() hwnd=2232068
+- 04:45:30.516 DEBUG: RemoveBrowserWindow(): hwnd = 2232068
+- 04:45:30.516 DEBUG: GetBrowserWindow(): not found, hwnd = 2232068
+- 04:45:30.516 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:45:30.516 DEBUG: Calling CefQuitMessageLoop()
+- 04:45:30.531 INFO: Ended application
+- 04:45:30.531 INFO: --------------------------------------------------------
+- 04:45:46.031 INFO: --------------------------------------------------------
+- 04:45:46.031 INFO: Started application
+- 04:45:46.031 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 04:45:46.031 INFO: Log level = DEBUG4
+- 04:45:46.031 INFO: Starting Mongoose 3.9c web server
+- 04:45:46.031 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 04:45:46.031 INFO: Index files: index.html,index.php
+- 04:45:46.031 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 04:45:46.031 INFO: CGI pattern: **.php$
+- 04:45:46.031 INFO: Hide files patterns: 
+- 04:45:46.031 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 04:45:46.031 INFO: Web server url: http://127.0.0.1:54119/
+- 04:45:46.031 INFO: remote_debugging_port = 54695
+- 04:45:46.031 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=54695
+- 04:45:46.063 DEBUG: App::OnContextInitialized()
+- 04:45:46.063 DEBUG: Window max width/height = 1840/992
+- 04:45:46.063 DEBUG: GetBrowserWindow(): not found, hwnd = 987110
+- 04:45:46.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:45:46.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:45:46.063 DEBUG: StoreBrowserWindow(): hwnd = 987110
+- 04:45:46.016 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="11828.0.552967834\510740047" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 04:45:46.094 DEBUG: ClientHandler::OnAfterCreated()
+- 04:45:46.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:45:46.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:45:46.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="11828.1.537089652\1501858408" /prefetch:673131151
+- 04:45:46.047 DEBUG: OnBrowserCreated()
+- 04:45:47.250 INFO: GET 200 /
+- 04:45:47.250 INFO: GET 200 /css/bootstrap.css
+- 04:45:47.250 INFO: GET 200 /images/logo.png
+- 04:45:47.250 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 04:45:47.157 DEBUG: OnContextCreated()
+- 04:45:47.281 INFO: GET 200 /js/bootstrap.js
+- 04:45:47.281 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 04:45:47.297 INFO: GET 200 /images/maps.png
+- 04:45:47.375 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 04:45:47.375 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 04:45:47.391 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 04:45:47.500 INFO: GET 200 /images/sprite-Recovered.png
+- 04:45:47.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54119/
+- 04:48:11.703 DEBUG: WM_DESTROY
+- 04:48:11.703 DEBUG: RemoveBrowserWindow(): hwnd = 987110
+- 04:48:11.703 INFO: Stopping Mongoose web server
+- 04:48:11.703 DEBUG: Mongoose webserver stopped immediately
+- 04:48:11.703 DEBUG: OnBeforeClose() hwnd=790590
+- 04:48:11.703 DEBUG: RemoveBrowserWindow(): hwnd = 790590
+- 04:48:11.703 DEBUG: GetBrowserWindow(): not found, hwnd = 790590
+- 04:48:11.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:48:11.703 DEBUG: Calling CefQuitMessageLoop()
+- 04:48:11.719 INFO: Ended application
+- 04:48:11.719 INFO: --------------------------------------------------------
+- 13:16:37.125 INFO: --------------------------------------------------------
+- 13:16:37.141 INFO: Started application
+- 13:16:37.141 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 13:16:37.141 INFO: Log level = DEBUG4
+- 13:16:37.141 INFO: Starting Mongoose 3.9c web server
+- 13:16:37.141 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 13:16:37.141 INFO: Index files: index.html,index.php
+- 13:16:37.141 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 13:16:37.141 INFO: CGI pattern: **.php$
+- 13:16:37.141 INFO: Hide files patterns: 
+- 13:16:37.141 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 13:16:37.141 INFO: Web server url: http://127.0.0.1:55577/
+- 13:16:37.141 INFO: remote_debugging_port = 52543
+- 13:16:37.297 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=52543
+- 13:16:39.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="12708.0.961813748\77177052" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 13:16:40.610 DEBUG: App::OnContextInitialized()
+- 13:16:40.610 DEBUG: Window max width/height = 1840/992
+- 13:16:40.610 DEBUG: GetBrowserWindow(): not found, hwnd = 1180260
+- 13:16:40.610 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:16:40.610 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:16:40.610 DEBUG: StoreBrowserWindow(): hwnd = 1180260
+- 13:16:40.094 DEBUG: ClientHandler::OnAfterCreated()
+- 13:16:40.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:16:40.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12708.1.2065644540\1752473967" /prefetch:673131151
+- 13:16:40.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:16:42.282 DEBUG: OnBrowserCreated()
+- 13:16:44.875 INFO: GET 200 /
+- 13:16:44.047 INFO: GET 200 /css/bootstrap.css
+- 13:16:44.078 INFO: GET 200 /images/logo.png
+- 13:16:44.094 INFO: GET 200 /js/bootstrap.js
+- 13:16:44.110 INFO: GET 200 /images/maps.png
+- 13:16:44.125 INFO: GET 200 /css/style-Pillsreports-Home.css
+- 13:16:44.141 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 13:16:44.188 INFO: GET 200 /images/Right-Top-Ads310x175.png
+- 13:16:44.188 INFO: GET 200 /images/Right-Top-Ads310x350.png
+- 13:16:44.203 INFO: GET 200 /images/Banner-Ads-1155x120.png
+- 13:16:44.110 DEBUG: OnContextCreated()
+- 13:16:45.719 INFO: GET 200 /images/sprite-Recovered.png
+- 13:16:45.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55577/
+- 13:22:28.094 DEBUG: WM_DESTROY
+- 13:22:28.094 DEBUG: RemoveBrowserWindow(): hwnd = 1180260
+- 13:22:28.094 INFO: Stopping Mongoose web server
+- 13:22:28.094 DEBUG: Mongoose webserver stopped immediately
+- 13:22:28.094 DEBUG: OnBeforeClose() hwnd=395714
+- 13:22:28.094 DEBUG: RemoveBrowserWindow(): hwnd = 395714
+- 13:22:28.094 DEBUG: GetBrowserWindow(): not found, hwnd = 395714
+- 13:22:28.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:22:28.094 DEBUG: Calling CefQuitMessageLoop()
+- 13:22:28.125 INFO: Ended application
+- 13:22:28.125 INFO: --------------------------------------------------------
+- 13:25:04.032 INFO: --------------------------------------------------------
+- 13:25:04.032 INFO: Started application
+- 13:25:04.032 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 13:25:04.032 INFO: Log level = DEBUG4
+- 13:25:04.032 INFO: Starting Mongoose 3.9c web server
+- 13:25:04.032 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 13:25:04.032 INFO: Index files: index.html,index.php
+- 13:25:04.032 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 13:25:04.032 INFO: CGI pattern: **.php$
+- 13:25:04.032 INFO: Hide files patterns: 
+- 13:25:04.032 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 13:25:04.032 INFO: Web server url: http://127.0.0.1:55696/
+- 13:25:04.032 INFO: remote_debugging_port = 65423
+- 13:25:04.032 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=65423
+- 13:25:04.078 DEBUG: App::OnContextInitialized()
+- 13:25:04.078 DEBUG: Window max width/height = 1840/992
+- 13:25:04.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1247646
+- 13:25:04.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:25:04.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:25:04.078 DEBUG: StoreBrowserWindow(): hwnd = 1247646
+- 13:25:04.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="12196.0.2104980563\2035314943" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 13:25:04.094 DEBUG: ClientHandler::OnAfterCreated()
+- 13:25:04.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:25:04.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:25:04.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12196.1.279710846\659384092" /prefetch:673131151
+- 13:25:04.031 DEBUG: OnBrowserCreated()
+- 13:25:05.172 INFO: GET 200 /
+- 13:25:05.078 DEBUG: OnContextCreated()
+- 13:25:05.203 INFO: GET 200 /styles/vendor-8a86dd8937.css
+- 13:25:06.235 INFO: GET 200 /scripts/app-805884cd49.js
+- 13:25:06.219 INFO: GET 200 /styles/app-97fbccf8a5.css
+- 13:25:06.438 INFO: GET 200 /scripts/vendor-12402b9f9f.js
+- 13:25:07.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55696/
+[0401/132507:INFO:CONSOLE(36)] "You are using the ngTouch module. 
+Angular Material already has mobile click, tap, and swipe support... 
+ngTouch is not supported with Angular Material!", source: http://127.0.0.1:55696/scripts/vendor-12402b9f9f.js (36)
+- 13:25:07.766 INFO: GET 200 /app/main/apps/calendar/i18n/en.json
+- 13:25:07.766 INFO: GET 200 /app/main/apps/e-commerce/i18n/en.json
+- 13:25:07.782 INFO: GET 200 /app/main/pages/auth/login-v2/i18n/en.json
+- 13:25:07.766 INFO: GET 200 /app/main/apps/chat/i18n/en.json
+- 13:25:07.782 INFO: GET 200 /app/toolbar/i18n/en.json
+- 13:25:07.782 INFO: GET 200 /app/main/apps/mail/i18n/en.json
+- 13:25:07.782 INFO: GET 200 /app/main/apps/file-manager/i18n/en.json
+- 13:25:07.797 INFO: GET 200 /app/main/apps/scrumboard/i18n/en.json
+- 13:25:07.797 INFO: GET 200 /app/main/apps/todo/i18n/en.json
+- 13:25:07.797 INFO: GET 200 /app/main/apps/contacts/i18n/en.json
+- 13:25:07.797 INFO: GET 200 /app/main/apps/gantt-chart/i18n/en.json
+- 13:25:07.797 INFO: GET 200 /app/quick-panel/i18n/en.json
+- 13:25:07.813 INFO: GET 200 /app/main/pages/auth/register/i18n/en.json
+- 13:25:07.813 INFO: GET 200 /app/main/apps/notes/i18n/en.json
+- 13:25:07.813 INFO: GET 200 /app/main/pages/auth/reset-password/i18n/en.json
+- 13:25:07.813 INFO: GET 200 /app/main/pages/auth/login/i18n/en.json
+- 13:25:07.813 INFO: GET 200 /app/main/pages/coming-soon/i18n/en.json
+- 13:25:07.828 INFO: GET 200 /app/main/pages/errors/500/i18n/en.json
+- 13:25:07.828 INFO: GET 200 /app/main/pages/errors/404/i18n/en.json
+- 13:25:07.828 INFO: GET 200 /app/main/pages/invoice/i18n/en.json
+- 13:25:07.828 INFO: GET 200 /app/main/pages/maintenance/i18n/en.json
+- 13:25:07.828 INFO: GET 200 /app/main/pages/profile/i18n/en.json
+- 13:25:07.844 INFO: GET 200 /app/main/pages/auth/forgot-password/i18n/en.json
+- 13:25:07.844 INFO: GET 200 /app/main/pages/auth/register-v2/i18n/en.json
+- 13:25:07.844 INFO: GET 200 /app/main/pages/auth/lock/i18n/en.json
+- 13:25:07.844 INFO: GET 200 /app/main/pages/search/i18n/en.json
+- 13:25:07.953 INFO: GET 200 /assets/icons/fonts/icomoon.ttf?5km1tg
+- 13:25:07.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55696/
+- 13:25:07.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55696/dashboard-project
+- 13:25:07.985 INFO: GET 200 /app/data/dashboard/project/data.json
+- 13:25:07.985 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar.jpg
+- 13:25:07.000 INFO: GET 200 /assets/images/theme-options/vertical-nav.jpg
+- 13:25:07.000 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar-2.jpg
+- 13:25:07.000 INFO: GET 200 /assets/images/theme-options/horizontal-nav.jpg
+- 13:25:07.000 INFO: GET 200 /assets/images/theme-options/content-with-toolbar.jpg
+- 13:25:07.016 INFO: GET 200 /assets/images/theme-options/content-only.jpg
+- 13:25:07.188 INFO: GET 200 /assets/images/backgrounds/header-bg.png
+- 13:25:08.297 INFO: GET 200 /app/data/quick-panel/notes.json
+- 13:25:08.297 INFO: GET 200 /app/data/quick-panel/activities.json
+- 13:25:08.297 INFO: GET 200 /app/data/quick-panel/events.json
+- 13:25:09.266 INFO: GET 200 /app/data/quick-panel/contacts.json
+- 13:25:10.297 INFO: GET 200 /assets/images/flags/us.png
+- 13:25:10.297 INFO: GET 200 /assets/images/flags/es.png
+- 13:25:10.297 INFO: GET 200 /assets/images/flags/tr.png
+- 13:25:10.313 INFO: GET 200 /assets/images/avatars/profile.jpg
+- 13:25:10.313 INFO: GET 200 /assets/images/avatars/alice.jpg
+- 13:25:10.313 INFO: GET 200 /assets/images/avatars/james.jpg
+- 13:25:10.313 INFO: GET 200 /assets/images/avatars/katherine.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/joyce.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/andrew.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/danielle.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/carl.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/vincent.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/garry.jpg
+- 13:25:10.328 INFO: GET 200 /assets/images/avatars/jane.jpg
+[0401/132522:INFO:CONSOLE(36)] "mdMenu: The $mdOpenMenu method is deprecated. Please use `$mdMenu.open`.", source: http://127.0.0.1:55696/scripts/vendor-12402b9f9f.js (36)
+[0401/132530:INFO:CONSOLE(36)] "mdMenu: The $mdOpenMenu method is deprecated. Please use `$mdMenu.open`.", source: http://127.0.0.1:55696/scripts/vendor-12402b9f9f.js (36)
+- 13:25:38.672 DEBUG: WM_DESTROY
+- 13:25:38.672 DEBUG: RemoveBrowserWindow(): hwnd = 1247646
+- 13:25:38.672 INFO: Stopping Mongoose web server
+- 13:25:38.672 DEBUG: Mongoose webserver stopped immediately
+- 13:25:38.672 DEBUG: OnBeforeClose() hwnd=853720
+- 13:25:38.688 DEBUG: RemoveBrowserWindow(): hwnd = 853720
+- 13:25:38.688 DEBUG: GetBrowserWindow(): not found, hwnd = 853720
+- 13:25:38.688 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:25:38.688 DEBUG: Calling CefQuitMessageLoop()
+- 13:25:38.719 INFO: Ended application
+- 13:25:38.719 INFO: --------------------------------------------------------
+- 13:26:03.031 INFO: --------------------------------------------------------
+- 13:26:03.031 INFO: Started application
+- 13:26:03.031 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 13:26:03.031 INFO: Log level = DEBUG4
+- 13:26:03.031 INFO: Starting Mongoose 3.9c web server
+- 13:26:03.031 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 13:26:03.031 INFO: Index files: index.html,index.php
+- 13:26:03.031 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 13:26:03.031 INFO: CGI pattern: **.php$
+- 13:26:03.031 INFO: Hide files patterns: 
+- 13:26:03.031 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 13:26:03.031 INFO: Web server url: http://127.0.0.1:55763/
+- 13:26:03.031 INFO: remote_debugging_port = 58681
+- 13:26:03.031 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=58681
+- 13:26:03.078 DEBUG: App::OnContextInitialized()
+- 13:26:03.078 DEBUG: Window max width/height = 1840/992
+- 13:26:03.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1246952
+- 13:26:03.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:26:03.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:26:03.078 DEBUG: StoreBrowserWindow(): hwnd = 1246952
+- 13:26:03.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="288.0.189134174\818041648" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 13:26:03.094 DEBUG: ClientHandler::OnAfterCreated()
+- 13:26:03.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:26:03.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:26:03.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="288.1.146045476\435830458" /prefetch:673131151
+- 13:26:03.031 DEBUG: OnBrowserCreated()
+- 13:26:03.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:26:04.188 INFO: GET 200 /
+- 13:26:04.203 INFO: GET 200 /styles/vendor-8a86dd8937.css
+- 13:26:04.110 DEBUG: OnContextCreated()
+- 13:26:04.219 INFO: GET 200 /styles/app-97fbccf8a5.css
+- 13:26:04.235 INFO: GET 200 /scripts/app-805884cd49.js
+- 13:26:05.500 INFO: GET 200 /scripts/vendor-12402b9f9f.js
+- 13:26:05.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/
+[0401/132606:INFO:CONSOLE(36)] "You are using the ngTouch module. 
+Angular Material already has mobile click, tap, and swipe support... 
+ngTouch is not supported with Angular Material!", source: http://127.0.0.1:55763/scripts/vendor-12402b9f9f.js (36)
+- 13:26:06.797 INFO: GET 200 /app/main/pages/auth/login-v2/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/toolbar/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/main/apps/calendar/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/main/apps/e-commerce/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/main/apps/mail/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/main/apps/chat/i18n/en.json
+- 13:26:06.797 INFO: GET 200 /app/main/apps/file-manager/i18n/en.json
+- 13:26:06.813 INFO: GET 200 /app/main/apps/gantt-chart/i18n/en.json
+- 13:26:06.813 INFO: GET 200 /app/main/apps/scrumboard/i18n/en.json
+- 13:26:06.813 INFO: GET 200 /app/main/apps/todo/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/main/apps/notes/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/main/apps/contacts/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/main/pages/auth/register/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/main/pages/auth/register-v2/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/main/pages/auth/login/i18n/en.json
+- 13:26:06.828 INFO: GET 200 /app/quick-panel/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/errors/500/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/auth/reset-password/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/coming-soon/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/errors/404/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/auth/forgot-password/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/auth/lock/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/invoice/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/profile/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/search/i18n/en.json
+- 13:26:06.844 INFO: GET 200 /app/main/pages/maintenance/i18n/en.json
+- 13:26:06.953 INFO: GET 200 /assets/icons/fonts/icomoon.ttf?5km1tg
+- 13:26:06.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/
+- 13:26:06.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/dashboard-project
+- 13:26:06.985 INFO: GET 200 /app/data/dashboard/project/data.json
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar.jpg
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/vertical-nav.jpg
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/horizontal-nav.jpg
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/content-with-toolbar.jpg
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/content-only.jpg
+- 13:26:06.000 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar-2.jpg
+- 13:26:06.172 INFO: GET 200 /assets/images/backgrounds/header-bg.png
+- 13:26:06.250 INFO: GET 200 /app/data/quick-panel/activities.json
+- 13:26:06.250 INFO: GET 200 /app/data/quick-panel/events.json
+- 13:26:06.250 INFO: GET 200 /app/data/quick-panel/notes.json
+- 13:26:07.250 INFO: GET 200 /app/data/quick-panel/contacts.json
+- 13:26:08.328 INFO: GET 200 /assets/images/avatars/profile.jpg
+- 13:26:08.328 INFO: GET 200 /assets/images/flags/us.png
+- 13:26:08.328 INFO: GET 200 /assets/images/flags/es.png
+- 13:26:08.328 INFO: GET 200 /assets/images/flags/tr.png
+- 13:26:08.328 INFO: GET 200 /assets/images/avatars/james.jpg
+- 13:26:08.328 INFO: GET 200 /assets/images/avatars/katherine.jpg
+- 13:26:08.328 INFO: GET 200 /assets/images/avatars/andrew.jpg
+- 13:26:08.344 INFO: GET 200 /assets/images/avatars/jane.jpg
+- 13:26:08.344 INFO: GET 200 /assets/images/avatars/alice.jpg
+- 13:26:08.344 INFO: GET 200 /assets/images/avatars/vincent.jpg
+- 13:26:08.344 INFO: GET 200 /assets/images/avatars/joyce.jpg
+- 13:26:08.344 INFO: GET 200 /assets/images/avatars/danielle.jpg
+- 13:26:08.360 INFO: GET 200 /assets/images/avatars/garry.jpg
+- 13:26:08.360 INFO: GET 200 /assets/images/avatars/carl.jpg
+- 13:26:22.297 INFO: GET 200 /app/data/mail/folders.json
+- 13:26:22.297 INFO: GET 200 /app/data/mail/labels.json
+- 13:26:22.360 INFO: GET 200 /app/data/mail/folders/inbox.json
+- 13:26:22.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/dashboard-project
+- 13:26:22.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/mail/inbox
+- 13:27:05.063 INFO: GET 200 /app/data/chat/user.json
+- 13:27:05.063 INFO: GET 200 /app/data/chat/contacts.json
+- 13:27:05.110 INFO: GET 200 /assets/images/patterns/rain-grey.png
+- 13:27:05.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/mail/inbox
+- 13:27:05.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/chat
+- 13:27:06.485 INFO: GET 200 /assets/images/avatars/Blair.jpg
+- 13:27:06.485 INFO: GET 200 /assets/images/avatars/Christy.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Abbott.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Copeland.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Helen.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Harper.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Henderson.jpg
+- 13:27:06.485 INFO: GET 200 /assets/images/avatars/Boyle.jpg
+- 13:27:06.485 INFO: GET 200 /assets/images/avatars/Barrera.jpg
+- 13:27:06.500 INFO: GET 200 /assets/images/avatars/Arnold.jpg
+- 13:27:06.516 INFO: GET 200 /assets/images/avatars/Estes.jpg
+- 13:27:06.516 INFO: GET 200 /assets/images/avatars/Josefina.jpg
+- 13:27:06.516 INFO: GET 200 /assets/images/avatars/Katina.jpg
+- 13:27:06.516 INFO: GET 200 /assets/images/avatars/Nancy.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Nora.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Odessa.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Lily.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Shauna.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Reyna.jpg
+- 13:27:06.531 INFO: GET 200 /assets/images/avatars/Mai.jpg
+- 13:27:06.547 INFO: GET 200 /assets/images/avatars/Trevino.jpg
+- 13:27:06.547 INFO: GET 200 /assets/images/avatars/Tillman.jpg
+- 13:27:06.563 INFO: GET 200 /assets/images/avatars/Tyson.jpg
+- 13:27:06.563 INFO: GET 200 /assets/images/avatars/Shepard.jpg
+- 13:27:06.563 INFO: GET 200 /assets/images/avatars/Velazquez.jpg
+- 13:27:17.891 INFO: GET 200 /app/data/chat/chats/5725a6809fdd915739187ed5.json
+- 13:27:34.422 INFO: GET 200 /app/data/chat/chats/5725a6803d87f1b77e17b62b.json
+- 13:27:37.281 INFO: GET 200 /app/data/chat/chats/5725a680dcb077889f758961.json
+- 13:27:39.266 INFO: GET 200 /app/data/chat/chats/5725a680bc670af746c435e2.json
+- 13:27:41.875 INFO: GET 200 /app/data/chat/chats/5725a6802d10e277a0f35775.json
+[0401/132800:INFO:CONSOLE(36)] "mdMenu: The $mdOpenMenu method is deprecated. Please use `$mdMenu.open`.", source: http://127.0.0.1:55763/scripts/vendor-12402b9f9f.js (36)
+- 13:28:12.735 INFO: GET 200 /app/data/file-manager/documents.json
+- 13:28:12.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/chat
+- 13:28:12.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/file-manager
+- 13:28:32.000 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:32.078 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:32.188 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:32.297 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:32.406 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:33.516 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:33.625 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:33.735 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:33.844 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:33.953 DEBUG: GetBrowserWindow(): not found, hwnd = 394580
+- 13:28:40.078 INFO: GET 200 /?flowChunkNumber=1&flowChunkSize=1048576&flowCurrentChunkSize=111108&flowTotalSize=111108&flowIdentifier=111108-3F1C0B72B384C9C8624CA5C814FFD947E640A2D8783D64C6D0pimgpsh_fullsize_distrjpg&flowFilename=%5E3F1C0B72B384C9C8624CA5C814FFD947E640A2D8783D64C6D0%5Epimgpsh_fullsize_distr.jpg&flowRelativePath=%5E3F1C0B72B384C9C8624CA5C814FFD947E640A2D8783D64C6D0%5Epimgpsh_fullsize_distr.jpg&flowTotalChunks=1
+- 13:30:28.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/file-manager
+- 13:30:28.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/mail/inbox
+- 13:30:30.719 INFO: GET 200 /app/data/gantt-chart/tasks.json
+- 13:30:30.719 INFO: GET 200 /app/data/gantt-chart/timespans.json
+- 13:30:30.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55763/mail/inbox
+- 13:30:30.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55763/gantt-chart
+[0401/133112:INFO:CONSOLE(36)] "$mdDialog: using `<md-dialog ng-cloak>` will affect the dialog opening animations.", source: http://127.0.0.1:55763/scripts/vendor-12402b9f9f.js (36)
+- 13:31:53.860 DEBUG: WM_DESTROY
+- 13:31:53.860 DEBUG: RemoveBrowserWindow(): hwnd = 1246952
+- 13:31:53.860 INFO: Stopping Mongoose web server
+- 13:31:53.860 DEBUG: Mongoose webserver stopped immediately
+- 13:31:53.860 DEBUG: OnBeforeClose() hwnd=919256
+- 13:31:53.860 DEBUG: RemoveBrowserWindow(): hwnd = 919256
+- 13:31:53.875 DEBUG: GetBrowserWindow(): not found, hwnd = 919256
+- 13:31:53.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:31:53.875 DEBUG: Calling CefQuitMessageLoop()
+- 13:31:53.906 INFO: Ended application
+- 13:31:53.906 INFO: --------------------------------------------------------
+- 13:32:43.047 INFO: --------------------------------------------------------
+- 13:32:43.047 INFO: Started application
+- 13:32:43.047 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 13:32:43.047 INFO: Log level = DEBUG4
+- 13:32:43.047 INFO: Starting Mongoose 3.9c web server
+- 13:32:43.047 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 13:32:43.047 INFO: Index files: index.html,index.php
+- 13:32:43.047 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 13:32:43.047 INFO: CGI pattern: **.php$
+- 13:32:43.047 INFO: Hide files patterns: 
+- 13:32:43.047 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 13:32:43.047 INFO: Web server url: http://127.0.0.1:55895/
+- 13:32:43.047 INFO: remote_debugging_port = 57764
+- 13:32:43.047 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=57764
+- 13:32:43.078 DEBUG: App::OnContextInitialized()
+- 13:32:43.078 DEBUG: Window max width/height = 1840/992
+- 13:32:43.094 DEBUG: GetBrowserWindow(): not found, hwnd = 394314
+- 13:32:43.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:32:43.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:32:43.094 DEBUG: StoreBrowserWindow(): hwnd = 394314
+- 13:32:43.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="9540.0.1483454907\150034578" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0152 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=10.18.10.4358 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 13:32:43.110 DEBUG: ClientHandler::OnAfterCreated()
+- 13:32:43.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:32:43.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:32:43.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="9540.1.914751463\862364467" /prefetch:673131151
+- 13:32:43.032 DEBUG: OnBrowserCreated()
+- 13:32:44.188 INFO: GET 200 /
+- 13:32:44.203 INFO: GET 200 /styles/vendor-8a86dd8937.css
+- 13:32:44.219 INFO: GET 200 /styles/app-97fbccf8a5.css
+- 13:32:44.110 DEBUG: OnContextCreated()
+- 13:32:44.250 INFO: GET 200 /scripts/app-805884cd49.js
+- 13:32:45.485 INFO: GET 200 /scripts/vendor-12402b9f9f.js
+- 13:32:46.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55895/
+[0401/133246:INFO:CONSOLE(36)] "You are using the ngTouch module. 
+Angular Material already has mobile click, tap, and swipe support... 
+ngTouch is not supported with Angular Material!", source: http://127.0.0.1:55895/scripts/vendor-12402b9f9f.js (36)
+- 13:32:46.813 INFO: GET 200 /app/main/pages/auth/login-v2/i18n/en.json
+- 13:32:46.813 INFO: GET 200 /app/toolbar/i18n/en.json
+- 13:32:46.813 INFO: GET 200 /app/main/apps/calendar/i18n/en.json
+- 13:32:46.813 INFO: GET 200 /app/main/apps/e-commerce/i18n/en.json
+- 13:32:46.813 INFO: GET 200 /app/main/apps/mail/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/file-manager/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/gantt-chart/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/scrumboard/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/chat/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/todo/i18n/en.json
+- 13:32:46.828 INFO: GET 200 /app/main/apps/contacts/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/apps/notes/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/register-v2/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/register/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/login/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/quick-panel/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/forgot-password/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/reset-password/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/auth/lock/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/coming-soon/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/errors/500/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/errors/404/i18n/en.json
+- 13:32:46.844 INFO: GET 200 /app/main/pages/invoice/i18n/en.json
+- 13:32:46.860 INFO: GET 200 /app/main/pages/profile/i18n/en.json
+- 13:32:46.860 INFO: GET 200 /app/main/pages/maintenance/i18n/en.json
+- 13:32:46.860 INFO: GET 200 /app/main/pages/search/i18n/en.json
+- 13:32:46.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55895/
+- 13:32:46.985 INFO: GET 200 /assets/icons/fonts/icomoon.ttf?5km1tg
+- 13:32:46.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55895/dashboard-project
+- 13:32:46.000 INFO: GET 200 /app/data/dashboard/project/data.json
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/vertical-nav.jpg
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/horizontal-nav.jpg
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar-2.jpg
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/content-with-toolbar.jpg
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar.jpg
+- 13:32:46.016 INFO: GET 200 /assets/images/theme-options/content-only.jpg
+- 13:32:46.172 INFO: GET 200 /assets/images/backgrounds/header-bg.png
+- 13:32:46.282 INFO: GET 200 /app/data/quick-panel/activities.json
+- 13:32:46.282 INFO: GET 200 /app/data/quick-panel/events.json
+- 13:32:46.297 INFO: GET 200 /app/data/quick-panel/notes.json
+- 13:32:47.297 INFO: GET 200 /app/data/quick-panel/contacts.json
+- 13:32:49.375 INFO: GET 200 /assets/images/avatars/profile.jpg
+- 13:32:49.375 INFO: GET 200 /assets/images/flags/es.png
+- 13:32:49.375 INFO: GET 200 /assets/images/flags/tr.png
+- 13:32:49.375 INFO: GET 200 /assets/images/avatars/james.jpg
+- 13:32:49.375 INFO: GET 200 /assets/images/avatars/katherine.jpg
+- 13:32:49.375 INFO: GET 200 /assets/images/flags/us.png
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/andrew.jpg
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/alice.jpg
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/vincent.jpg
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/jane.jpg
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/danielle.jpg
+- 13:32:49.391 INFO: GET 200 /assets/images/avatars/joyce.jpg
+- 13:32:49.407 INFO: GET 200 /assets/images/avatars/carl.jpg
+- 13:32:49.407 INFO: GET 200 /assets/images/avatars/garry.jpg
+- 13:32:56.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55895/dashboard-project
+- 13:32:56.578 INFO: GET 404 /dashboard-project
+- 13:32:56.485 DEBUG: OnContextCreated()
+- 13:32:56.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55895/dashboard-project
+- 13:33:08.672 DEBUG: WM_DESTROY
+- 13:33:08.672 DEBUG: RemoveBrowserWindow(): hwnd = 394314
+- 13:33:08.672 INFO: Stopping Mongoose web server
+- 13:33:08.672 DEBUG: Mongoose webserver stopped immediately
+- 13:33:08.672 DEBUG: OnBeforeClose() hwnd=722054
+- 13:33:08.672 DEBUG: RemoveBrowserWindow(): hwnd = 722054
+- 13:33:08.672 DEBUG: GetBrowserWindow(): not found, hwnd = 722054
+- 13:33:08.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:33:08.672 DEBUG: Calling CefQuitMessageLoop()
+- 13:33:08.563 DEBUG: OnBrowserDestroyed()
+- 13:33:08.688 INFO: Ended application
+- 13:33:08.688 INFO: --------------------------------------------------------
+- 19:08:47.125 INFO: --------------------------------------------------------
+- 19:08:47.125 INFO: Started application
+- 19:08:47.125 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 19:08:47.125 INFO: Log level = DEBUG4
+- 19:08:47.125 INFO: Starting Mongoose 3.9c web server
+- 19:08:47.125 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 19:08:47.125 INFO: Index files: index.html,index.php
+- 19:08:47.125 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 19:08:47.125 INFO: CGI pattern: **.php$
+- 19:08:47.125 INFO: Hide files patterns: 
+- 19:08:47.141 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 19:08:47.141 INFO: Web server url: http://127.0.0.1:50924/
+- 19:08:47.141 INFO: remote_debugging_port = 55664
+- 19:08:47.281 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=55664
+- 19:08:49.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="12844.0.56546333\359615013" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 19:08:50.719 DEBUG: App::OnContextInitialized()
+- 19:08:50.719 DEBUG: Window max width/height = 1840/992
+- 19:08:50.719 DEBUG: GetBrowserWindow(): not found, hwnd = 525384
+- 19:08:50.719 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:08:50.719 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:08:50.719 DEBUG: StoreBrowserWindow(): hwnd = 525384
+- 19:08:50.078 DEBUG: ClientHandler::OnAfterCreated()
+- 19:08:50.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:08:50.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12844.1.612336656\1934962865" /prefetch:673131151
+- 19:08:50.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:08:52.313 DEBUG: OnBrowserCreated()
+- 19:08:53.906 INFO: GET 200 /
+- 19:08:53.094 INFO: GET 200 /styles/vendor-8a86dd8937.css
+- 19:08:53.141 INFO: GET 200 /styles/app-97fbccf8a5.css
+- 19:08:53.157 DEBUG: OnContextCreated()
+- 19:08:54.422 INFO: GET 200 /scripts/app-805884cd49.js
+- 19:08:54.906 INFO: GET 200 /scripts/vendor-12402b9f9f.js
+- 19:08:56.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50924/
+[0704/190856:INFO:CONSOLE(36)] "You are using the ngTouch module. 
+Angular Material already has mobile click, tap, and swipe support... 
+ngTouch is not supported with Angular Material!", source: http://127.0.0.1:50924/scripts/vendor-12402b9f9f.js (36)
+- 19:08:56.187 INFO: GET 200 /app/toolbar/i18n/en.json
+- 19:08:56.219 INFO: GET 200 /app/main/apps/file-manager/i18n/en.json
+- 19:08:56.234 INFO: GET 200 /app/main/pages/auth/login-v2/i18n/en.json
+- 19:08:56.234 INFO: GET 200 /app/main/apps/gantt-chart/i18n/en.json
+- 19:08:56.234 INFO: GET 200 /app/main/apps/calendar/i18n/en.json
+- 19:08:56.250 INFO: GET 200 /app/main/apps/e-commerce/i18n/en.json
+- 19:08:56.250 INFO: GET 200 /app/main/apps/contacts/i18n/en.json
+- 19:08:56.250 INFO: GET 200 /app/main/apps/chat/i18n/en.json
+- 19:08:56.250 INFO: GET 200 /app/main/apps/mail/i18n/en.json
+- 19:08:56.250 INFO: GET 200 /app/main/apps/scrumboard/i18n/en.json
+- 19:08:56.266 INFO: GET 200 /app/quick-panel/i18n/en.json
+- 19:08:56.266 INFO: GET 200 /app/main/apps/todo/i18n/en.json
+- 19:08:56.266 INFO: GET 200 /app/main/pages/auth/register-v2/i18n/en.json
+- 19:08:56.266 INFO: GET 200 /app/main/pages/auth/register/i18n/en.json
+- 19:08:56.281 INFO: GET 200 /app/main/pages/coming-soon/i18n/en.json
+- 19:08:56.281 INFO: GET 200 /app/main/apps/notes/i18n/en.json
+- 19:08:56.281 INFO: GET 200 /app/main/pages/errors/404/i18n/en.json
+- 19:08:56.281 INFO: GET 200 /app/main/pages/auth/lock/i18n/en.json
+- 19:08:56.281 INFO: GET 200 /app/main/pages/errors/500/i18n/en.json
+- 19:08:56.297 INFO: GET 200 /app/main/pages/auth/reset-password/i18n/en.json
+- 19:08:56.297 INFO: GET 200 /app/main/pages/profile/i18n/en.json
+- 19:08:56.297 INFO: GET 200 /app/main/pages/maintenance/i18n/en.json
+- 19:08:56.297 INFO: GET 200 /app/main/pages/search/i18n/en.json
+- 19:08:56.297 INFO: GET 200 /app/main/pages/auth/login/i18n/en.json
+- 19:08:56.312 INFO: GET 200 /app/main/pages/invoice/i18n/en.json
+- 19:08:56.312 INFO: GET 200 /app/main/pages/auth/forgot-password/i18n/en.json
+- 19:08:56.375 INFO: GET 200 /assets/icons/fonts/icomoon.ttf?5km1tg
+- 19:08:57.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50924/
+- 19:08:57.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50924/dashboard-project
+- 19:08:57.500 INFO: GET 200 /assets/images/theme-options/horizontal-nav.jpg
+- 19:08:57.500 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar.jpg
+- 19:08:57.500 INFO: GET 200 /assets/images/theme-options/vertical-nav.jpg
+- 19:08:57.500 INFO: GET 200 /assets/images/theme-options/content-with-toolbar.jpg
+- 19:08:57.500 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar-2.jpg
+- 19:08:57.531 INFO: GET 200 /app/data/dashboard/project/data.json
+- 19:08:57.547 INFO: GET 200 /assets/images/theme-options/content-only.jpg
+- 19:08:57.844 INFO: GET 200 /assets/images/backgrounds/header-bg.png
+- 19:08:57.984 INFO: GET 200 /app/data/quick-panel/events.json
+- 19:08:57.984 INFO: GET 200 /app/data/quick-panel/activities.json
+- 19:08:57.984 INFO: GET 200 /app/data/quick-panel/notes.json
+- 19:08:58.312 INFO: GET 200 /app/data/quick-panel/contacts.json
+- 19:09:00.859 INFO: GET 200 /assets/images/flags/es.png
+- 19:09:00.859 INFO: GET 200 /assets/images/flags/us.png
+- 19:09:00.859 INFO: GET 200 /assets/images/flags/tr.png
+- 19:09:00.891 INFO: GET 200 /assets/images/avatars/katherine.jpg
+- 19:09:00.891 INFO: GET 200 /assets/images/avatars/james.jpg
+- 19:09:00.891 INFO: GET 200 /assets/images/avatars/andrew.jpg
+- 19:09:00.891 INFO: GET 200 /assets/images/avatars/profile.jpg
+- 19:09:00.906 INFO: GET 200 /assets/images/avatars/jane.jpg
+- 19:09:00.906 INFO: GET 200 /assets/images/avatars/alice.jpg
+- 19:09:00.922 INFO: GET 200 /assets/images/avatars/joyce.jpg
+- 19:09:00.922 INFO: GET 200 /assets/images/avatars/vincent.jpg
+- 19:09:00.953 INFO: GET 200 /assets/images/avatars/danielle.jpg
+- 19:09:00.969 INFO: GET 200 /assets/images/avatars/carl.jpg
+- 19:09:00.969 INFO: GET 200 /assets/images/avatars/garry.jpg
+- 19:12:45.406 DEBUG: WM_DESTROY
+- 19:12:45.406 DEBUG: RemoveBrowserWindow(): hwnd = 525384
+- 19:12:45.406 INFO: Stopping Mongoose web server
+- 19:12:45.406 DEBUG: Mongoose webserver stopped immediately
+- 19:12:45.422 DEBUG: OnBeforeClose() hwnd=852712
+- 19:12:45.422 DEBUG: RemoveBrowserWindow(): hwnd = 852712
+- 19:12:45.422 DEBUG: GetBrowserWindow(): not found, hwnd = 852712
+- 19:12:45.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:12:45.422 DEBUG: Calling CefQuitMessageLoop()
+- 19:12:45.531 INFO: Ended application
+- 19:12:45.531 INFO: --------------------------------------------------------
+- 23:30:45.047 INFO: --------------------------------------------------------
+- 23:30:45.047 INFO: Started application
+- 23:30:45.047 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 23:30:45.047 INFO: Log level = DEBUG4
+- 23:30:45.047 INFO: Starting Mongoose 3.9c web server
+- 23:30:45.047 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 23:30:45.047 INFO: Index files: index.html,index.php
+- 23:30:45.047 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 23:30:45.047 INFO: CGI pattern: **.php$
+- 23:30:45.063 INFO: Hide files patterns: 
+- 23:30:45.063 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 23:30:45.063 INFO: Web server url: http://127.0.0.1:64369/
+- 23:30:45.063 INFO: remote_debugging_port = 50087
+- 23:30:45.063 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=50087
+- 23:30:46.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="16048.0.98293944\1674912166" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 23:30:46.313 DEBUG: App::OnContextInitialized()
+- 23:30:46.313 DEBUG: Window max width/height = 1840/992
+- 23:30:46.313 DEBUG: GetBrowserWindow(): not found, hwnd = 462334
+- 23:30:46.313 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:30:46.313 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:30:46.328 DEBUG: StoreBrowserWindow(): hwnd = 462334
+- 23:30:46.532 DEBUG: ClientHandler::OnAfterCreated()
+- 23:30:46.532 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:30:46.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="16048.1.1273883821\1293754483" /prefetch:673131151
+- 23:30:46.657 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:30:48.281 DEBUG: OnBrowserCreated()
+- 23:30:49.563 INFO: GET 200 /
+- 23:30:49.766 INFO: GET 200 /styles/vendor-8a86dd8937.css
+- 23:30:50.907 INFO: GET 200 /styles/app-97fbccf8a5.css
+- 23:30:50.469 DEBUG: OnContextCreated()
+- 23:30:50.188 INFO: GET 200 /scripts/app-805884cd49.js
+- 23:30:50.594 INFO: GET 200 /scripts/vendor-12402b9f9f.js
+- 23:30:52.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64369/
+[0705/233052:INFO:CONSOLE(36)] "You are using the ngTouch module. 
+Angular Material already has mobile click, tap, and swipe support... 
+ngTouch is not supported with Angular Material!", source: http://127.0.0.1:64369/scripts/vendor-12402b9f9f.js (36)
+- 23:30:52.688 INFO: GET 200 /app/toolbar/i18n/en.json
+- 23:30:52.719 INFO: GET 200 /app/main/pages/auth/login-v2/i18n/en.json
+- 23:30:52.735 INFO: GET 200 /app/main/apps/file-manager/i18n/en.json
+- 23:30:52.735 INFO: GET 200 /app/main/apps/gantt-chart/i18n/en.json
+- 23:30:52.750 INFO: GET 200 /app/main/apps/calendar/i18n/en.json
+- 23:30:52.766 INFO: GET 200 /app/main/apps/contacts/i18n/en.json
+- 23:30:52.766 INFO: GET 200 /app/main/apps/e-commerce/i18n/en.json
+- 23:30:52.766 INFO: GET 200 /app/main/apps/chat/i18n/en.json
+- 23:30:52.766 INFO: GET 200 /app/main/apps/todo/i18n/en.json
+- 23:30:53.766 INFO: GET 200 /app/main/apps/scrumboard/i18n/en.json
+- 23:30:53.766 INFO: GET 200 /app/main/apps/notes/i18n/en.json
+- 23:30:53.782 INFO: GET 200 /app/main/pages/auth/login/i18n/en.json
+- 23:30:53.782 INFO: GET 200 /app/main/apps/mail/i18n/en.json
+- 23:30:53.782 INFO: GET 200 /app/main/pages/auth/forgot-password/i18n/en.json
+- 23:30:53.782 INFO: GET 200 /app/main/pages/auth/reset-password/i18n/en.json
+- 23:30:53.782 INFO: GET 200 /app/main/pages/auth/register-v2/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/quick-panel/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/main/pages/errors/404/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/main/pages/errors/500/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/main/pages/invoice/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/main/pages/profile/i18n/en.json
+- 23:30:53.797 INFO: GET 200 /app/main/pages/maintenance/i18n/en.json
+- 23:30:53.813 INFO: GET 200 /app/main/pages/auth/register/i18n/en.json
+- 23:30:53.813 INFO: GET 200 /app/main/pages/search/i18n/en.json
+- 23:30:53.813 INFO: GET 200 /app/main/pages/coming-soon/i18n/en.json
+- 23:30:53.813 INFO: GET 200 /app/main/pages/auth/lock/i18n/en.json
+- 23:30:53.907 INFO: GET 200 /assets/icons/fonts/icomoon.ttf?5km1tg
+- 23:30:53.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64369/
+- 23:30:53.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64369/dashboard-project
+- 23:30:53.000 INFO: GET 200 /app/data/dashboard/project/data.json
+- 23:30:53.016 INFO: GET 200 /assets/images/theme-options/content-with-toolbar.jpg
+- 23:30:53.032 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar.jpg
+- 23:30:53.032 INFO: GET 200 /assets/images/theme-options/horizontal-nav.jpg
+- 23:30:53.032 INFO: GET 200 /assets/images/theme-options/vertical-nav-with-full-toolbar-2.jpg
+- 23:30:53.032 INFO: GET 200 /assets/images/theme-options/vertical-nav.jpg
+- 23:30:53.047 INFO: GET 200 /assets/images/theme-options/content-only.jpg
+- 23:30:53.266 INFO: GET 200 /assets/images/backgrounds/header-bg.png
+- 23:30:53.375 INFO: GET 200 /app/data/quick-panel/notes.json
+- 23:30:53.375 INFO: GET 200 /app/data/quick-panel/events.json
+- 23:30:53.391 INFO: GET 200 /app/data/quick-panel/activities.json
+- 23:30:54.735 INFO: GET 200 /app/data/quick-panel/contacts.json
+- 23:30:56.141 INFO: GET 200 /assets/images/flags/tr.png
+- 23:30:56.141 INFO: GET 200 /assets/images/flags/us.png
+- 23:30:56.157 INFO: GET 200 /assets/images/flags/es.png
+- 23:30:56.172 INFO: GET 200 /assets/images/avatars/andrew.jpg
+- 23:30:56.172 INFO: GET 200 /assets/images/avatars/profile.jpg
+- 23:30:56.203 INFO: GET 200 /assets/images/avatars/vincent.jpg
+- 23:30:56.203 INFO: GET 200 /assets/images/avatars/alice.jpg
+- 23:30:56.219 INFO: GET 200 /assets/images/avatars/katherine.jpg
+- 23:30:56.219 INFO: GET 200 /assets/images/avatars/joyce.jpg
+- 23:30:56.219 INFO: GET 200 /assets/images/avatars/james.jpg
+- 23:30:56.219 INFO: GET 200 /assets/images/avatars/jane.jpg
+- 23:30:56.235 INFO: GET 200 /assets/images/avatars/danielle.jpg
+- 23:30:56.250 INFO: GET 200 /assets/images/avatars/carl.jpg
+- 23:30:56.250 INFO: GET 200 /assets/images/avatars/garry.jpg
+- 19:05:57.047 INFO: --------------------------------------------------------
+- 19:05:57.062 INFO: Started application
+- 19:05:57.062 INFO: Logging to: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 19:05:57.062 INFO: Log level = DEBUG4
+- 19:05:57.062 INFO: Starting Mongoose 3.9c web server
+- 19:05:57.062 INFO: WWW directory: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 19:05:57.062 INFO: Index files: index.html,index.php
+- 19:05:57.062 INFO: CGI interpreter: D:\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 19:05:57.062 INFO: CGI pattern: **.php$
+- 19:05:57.062 INFO: Hide files patterns: 
+- 19:05:57.062 INFO: CGI environment variables set: TMP=C:\Users\WF1\AppData\Local\Temp\,TEMP=C:\Users\WF1\AppData\Local\Temp\,TMPDIR=C:\Users\WF1\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 19:05:57.078 INFO: Web server url: http://127.0.0.1:53366/
+- 19:05:57.078 INFO: remote_debugging_port = 50893
+- 19:05:57.078 DEBUG: Command line string for the browser process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=50893
+- 19:05:58.000 DEBUG: Command line string for the gpu-process process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="2536.0.532967704\935600151" --no-sandbox --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 19:05:59.109 DEBUG: App::OnContextInitialized()
+- 19:05:59.109 DEBUG: Window max width/height = 1840/992
+- 19:05:59.109 DEBUG: GetBrowserWindow(): not found, hwnd = 394988
+- 19:05:59.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:05:59.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:05:59.140 DEBUG: StoreBrowserWindow(): hwnd = 394988
+- 19:05:59.437 DEBUG: ClientHandler::OnAfterCreated()
+- 19:05:59.437 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:05:59.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:05:59.000 DEBUG: Command line string for the renderer process: "D:\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="2536.1.2043861671\1847831743" /prefetch:673131151
+- 19:06:00.282 DEBUG: OnBrowserCreated()
+- 19:06:02.500 INFO: GET 200 /
+- 19:06:02.703 INFO: GET 200 /js/TweenMax.min.js
+- 19:06:02.703 INFO: GET 200 /js/jquery-1.8.3.min.js
+- 19:06:02.718 INFO: GET 200 /js/TweenLite.min.js
+- 19:06:02.219 DEBUG: OnContextCreated()
+- 19:06:02.859 INFO: GET 200 /imgs/backbtn.png
+[0708/190602:ERROR:backend_impl.cc(1023)] Critical error found -8
+[0708/190602:WARNING:storage_block-inl.h(128)] Failed data load.
+[0708/190602:ERROR:entry_impl.cc(1021)] No file for a0010053
+[0708/190602:WARNING:storage_block-inl.h(128)] Failed data load.
+[0708/190602:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0708/190602:ERROR:cache_util.cc(132)] Unable to move cache folder D:\phpdesktop-chrome-47.5-rc-php-5.4.33\webcache to D:\phpdesktop-chrome-47.5-rc-php-5.4.33\old_webcache_000
+[0708/190602:ERROR:backend_impl.cc(1997)] Corrupt Index file
+- 19:06:03.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:11.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:11.156 INFO: GET 200 /3.html
+- 19:06:11.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:14.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:14.125 INFO: GET 200 /2.html
+- 19:06:14.140 INFO: GET 200 /imgs/prod1.png
+- 19:06:14.140 INFO: GET 200 /imgs/prod2.png
+- 19:06:14.140 INFO: GET 200 /imgs/prod3.png
+- 19:06:14.140 INFO: GET 200 /imgs/prod4.png
+- 19:06:14.140 INFO: GET 200 /imgs/prod5.png
+- 19:06:14.140 INFO: GET 200 /imgs/prod6.png
+- 19:06:14.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:17.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:17.312 INFO: GET 200 /1.html
+- 19:06:17.312 INFO: GET 200 /imgs/abtus1.png
+- 19:06:17.312 INFO: GET 200 /imgs/abtus2.png
+- 19:06:17.312 INFO: GET 200 /imgs/abtus3.png
+- 19:06:17.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:22.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:22.187 INFO: GET 200 /4.html
+- 19:06:22.187 INFO: GET 200 /imgs/map.png
+- 19:06:22.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:28.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:28.406 INFO: GET 200 /5.html
+- 19:06:28.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:30.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53366/
+- 19:06:30.922 INFO: GET 200 /6.html
+- 19:06:30.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53366/
+- 19:06:35.062 DEBUG: WM_DESTROY
+- 19:06:35.062 DEBUG: RemoveBrowserWindow(): hwnd = 394988
+- 19:06:35.062 INFO: Stopping Mongoose web server
+- 19:06:35.062 DEBUG: Mongoose webserver stopped immediately
+- 19:06:35.062 DEBUG: OnBeforeClose() hwnd=4655598
+- 19:06:35.062 DEBUG: RemoveBrowserWindow(): hwnd = 4655598
+- 19:06:35.062 DEBUG: GetBrowserWindow(): not found, hwnd = 4655598
+- 19:06:35.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:06:35.062 DEBUG: Calling CefQuitMessageLoop()
+- 19:06:36.203 INFO: Ended application
+- 19:06:36.203 INFO: --------------------------------------------------------
