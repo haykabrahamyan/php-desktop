@@ -17,6 +17,6 @@ In the settings.json file you can configure browser,  php, window settings
 
 ## How to use
 
-just move your php project under www folder and enjoy
+just move your php project under www folder and double click on phpdesktop-chrome.exe
 
 
